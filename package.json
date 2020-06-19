@@ -1,0 +1,38 @@
+{
+  "name": "eslint-plugin-miniprogram",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "description": "eslint plugin for miniprogram",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "eslint-plugin-miniprogram",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "lint:script": "eslint . --ext '.js' --report-unused-disable-directives",
+    "lint-fix:script": "npm run lint:script -- --fix"
+  },
+  "dependencies": {
+    "eslint": "^7.2.0",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "mocha": "^7.2.0",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "ISC"
+}
