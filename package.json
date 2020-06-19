@@ -1,14 +1,14 @@
 {
-  "name": "eslint-plugin-miniprogram",
-  "version": "0.0.1",
+  "name": "eslint-plugin-ahaha-miniprogram",
+  "version": "0.0.2",
   "main": "lib/index.js",
-  "description": "eslint plugin for miniprogram",
+  "description": "eslint plugin for ahaha-miniprogram",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "eslint-plugin-miniprogram",
+  "author": "eslint-plugin-ahaha-miniprogram",
   "scripts": {
     "test": "mocha tests --recursive",
     "lint:script": "eslint . --ext '.js' --report-unused-disable-directives",

@@ -1,6 +1,6 @@
-# eslint-plugin-miniprogram
+# eslint-plugin-ahaha-miniprogram
 
-miniprogram
+ahaha-miniprogram
 
 ## Installation
 
@@ -10,19 +10,19 @@ You'll first need to install [ESLint](http://eslint.org):
 $ yarn add eslint --dev
 ```
 
-Next, install `eslint-plugin-miniprogram`:
+Next, install `eslint-plugin-ahaha-miniprogram`:
 
 ```
-$ yarn add eslint-plugin-miniprogram --dev
+$ yarn add eslint-plugin-ahaha-miniprogram --dev
 ```
 
 ## Usage
 
-Add `miniprogram` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `ahaha-miniprogram` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-  "plugins": ["miniprogram"]
+  "plugins": ["ahaha-miniprogram"]
 }
 ```
 
@@ -31,7 +31,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "miniprogram/rule-name": 2
+    "ahaha-miniprogram/rule-name": 2
   }
 }
 ```

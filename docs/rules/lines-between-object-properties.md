@@ -7,7 +7,7 @@ Configurable rule to enforce consistent empty lines between object properties.
 ```json
 {
   "rules": {
-    "miniprogram/lines-between-object-properties": [
+    "ahaha-miniprogram/lines-between-object-properties": [
       "error",
       {
         "funcs": ["foo"], // apply to foo`s object parameter
