@@ -37,3 +37,5 @@ Then configure the rules you want to use under the rules section.
 ```
 
 ## Supported Rules
+
+- [lines-between-object-properties](./docs/rules/lines-between-object-properties.md)
