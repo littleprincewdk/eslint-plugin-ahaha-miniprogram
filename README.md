@@ -1,6 +1,6 @@
 # eslint-plugin-ahaha-miniprogram
 
-ahaha-miniprogram
+eslint plugin for [wx miniprogram](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 
 ## Installation
 
@@ -31,7 +31,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "ahaha-miniprogram/rule-name": 2
+    "ahaha-miniprogram/rule-name": ["error", { "config": "foo" }]
   }
 }
 ```
@@ -39,3 +39,4 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 - [lines-between-object-properties](./docs/rules/lines-between-object-properties.md)
+- [no-native-api](./docs/rules/no-native-api.md)

@@ -1,8 +1,8 @@
 {
   "name": "eslint-plugin-ahaha-miniprogram",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
-  "description": "eslint plugin for ahaha-miniprogram",
+  "description": "eslint plugin for wx miniprogram",
   "keywords": [
     "eslint",
     "eslintplugin",
