@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ahaha-miniprogram",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/index.js",
   "description": "eslint plugin for wx miniprogram",
   "keywords": [
@@ -8,7 +8,8 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "eslint-plugin-ahaha-miniprogram",
+  "repository": "https://github.com/littleprincewdk/eslint-plugin-ahaha-miniprogram",
+  "author": "princekin <2889110370@qq.com>",
   "scripts": {
     "test": "mocha tests --recursive",
     "lint:script": "eslint . --ext '.js' --report-unused-disable-directives",
